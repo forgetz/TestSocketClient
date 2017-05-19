@@ -1,0 +1,120 @@
+2016-08-03 09:00:43: Error StartClient: An address incompatible with the requested protocol was used,    at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.InternalBind(EndPoint localEP)
+   at System.Net.Sockets.Socket.BeginConnectEx(EndPoint remoteEP, Boolean flowContext, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginConnect(EndPoint remoteEP, AsyncCallback callback, Object state)
+   at TestSocketClient.AsynchronousClient.StartClient(String message) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 64
+2016-08-03 09:01:29: Error StartClient: An address incompatible with the requested protocol was used,    at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.InternalBind(EndPoint localEP)
+   at System.Net.Sockets.Socket.BeginConnectEx(EndPoint remoteEP, Boolean flowContext, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginConnect(EndPoint remoteEP, AsyncCallback callback, Object state)
+   at TestSocketClient.AsynchronousClient.StartClient(String message) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 64
+2016-08-03 09:01:39: Error StartClient: An address incompatible with the requested protocol was used,    at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.InternalBind(EndPoint localEP)
+   at System.Net.Sockets.Socket.BeginConnectEx(EndPoint remoteEP, Boolean flowContext, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginConnect(EndPoint remoteEP, AsyncCallback callback, Object state)
+   at TestSocketClient.AsynchronousClient.StartClient(String message) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 64
+2016-08-03 09:01:42: Error StartClient: An address incompatible with the requested protocol was used,    at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.InternalBind(EndPoint localEP)
+   at System.Net.Sockets.Socket.BeginConnectEx(EndPoint remoteEP, Boolean flowContext, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginConnect(EndPoint remoteEP, AsyncCallback callback, Object state)
+   at TestSocketClient.AsynchronousClient.StartClient(String message) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 64
+2016-08-03 09:01:56: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 148
+2016-08-03 09:01:58: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 148
+2016-08-03 09:05:21: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 148
+2016-08-03 09:08:27: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 148
+2016-08-03 09:08:27: Error SendCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.EndSend(IAsyncResult asyncResult, SocketError& errorCode)
+   at System.Net.Sockets.Socket.EndSend(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.SendCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 196
+2016-08-03 09:08:31: Error StartClient: A request to send or receive data was disallowed because the socket is not connected and (when sending on a datagram socket using a sendto call) no address was supplied,    at System.Net.Sockets.Socket.Shutdown(SocketShutdown how)
+   at TestSocketClient.AsynchronousClient.StartClient(String message) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 83
+2016-08-03 09:08:32: Error StartClient: A request to send or receive data was disallowed because the socket is not connected and (when sending on a datagram socket using a sendto call) no address was supplied,    at System.Net.Sockets.Socket.Shutdown(SocketShutdown how)
+   at TestSocketClient.AsynchronousClient.StartClient(String message) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 83
+2016-08-03 09:08:32: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 148
+2016-08-03 09:08:33: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 148
+2016-08-03 09:08:33: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 148
+2016-08-03 09:08:38: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 148
+2016-08-03 09:08:39: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 148
+2016-08-03 09:08:39: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 148
+2016-08-03 09:08:42: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 148
+2016-08-03 09:08:53: Error ReceiveCallback: An existing connection was forcibly closed by the remote host,    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 148
+2016-08-03 10:20:47: Error ConnectCallback: No connection could be made because the target machine actively refused it 10.10.107.210:18764,    at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ConnectCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 105
+2016-08-03 10:20:51: Error ConnectCallback: No connection could be made because the target machine actively refused it 10.10.107.210:18764,    at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ConnectCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 105
+2016-08-03 10:20:52: Error ConnectCallback: No connection could be made because the target machine actively refused it 10.10.107.210:18764,    at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ConnectCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 105
+2016-08-03 10:20:54: Error ConnectCallback: No connection could be made because the target machine actively refused it 10.10.107.210:18764,    at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ConnectCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 105
+2016-08-03 10:21:05: Error ConnectCallback: No connection could be made because the target machine actively refused it 10.10.107.210:18764,    at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ConnectCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 105
+2016-08-03 10:21:12: Error ConnectCallback: No connection could be made because the target machine actively refused it 10.10.107.210:18764,    at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ConnectCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 105
+2016-08-03 10:21:53: Error ConnectCallback: No connection could be made because the target machine actively refused it 10.10.107.210:18764,    at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ConnectCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 105
+2016-08-03 10:21:56: Error ConnectCallback: No connection could be made because the target machine actively refused it 10.10.107.210:18764,    at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ConnectCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 105
+2016-08-03 10:22:10: Error ConnectCallback: No connection could be made because the target machine actively refused it 10.10.107.210:18764,    at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ConnectCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 105
+2016-08-03 10:22:20: Error ConnectCallback: No connection could be made because the target machine actively refused it 10.10.107.210:18764,    at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ConnectCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 105
+2016-08-03 10:22:21: Error ConnectCallback: No connection could be made because the target machine actively refused it 10.10.107.210:18764,    at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ConnectCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 105
+2016-08-03 10:22:25: Error ConnectCallback: No connection could be made because the target machine actively refused it 10.10.107.210:18764,    at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ConnectCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 105
+2016-08-03 10:22:38: Error ConnectCallback: No connection could be made because the target machine actively refused it 10.10.107.210:18764,    at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ConnectCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 105
+2016-08-03 10:26:23: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 148
+2016-08-03 10:26:23: Error SendCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.EndSend(IAsyncResult asyncResult, SocketError& errorCode)
+   at System.Net.Sockets.Socket.EndSend(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.SendCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 196
+2016-08-03 11:14:51: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 148
+2016-08-03 11:14:56: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 148
+2016-08-03 11:14:56: Error SendCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.EndSend(IAsyncResult asyncResult, SocketError& errorCode)
+   at System.Net.Sockets.Socket.EndSend(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.SendCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 196

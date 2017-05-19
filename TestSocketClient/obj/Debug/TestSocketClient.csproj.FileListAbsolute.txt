@@ -1,0 +1,12 @@
+C:\Code\TestSocketClient\TestSocketClient\bin\Debug\TestSocketClient.exe.config
+C:\Code\TestSocketClient\TestSocketClient\obj\Debug\TestSocketClient.Properties.Resources.resources
+C:\Code\TestSocketClient\TestSocketClient\obj\Debug\TestSocketClient.csproj.GenerateResource.Cache
+C:\Code\TestSocketClient\TestSocketClient\bin\Debug\TestSocketClient.exe
+C:\Code\TestSocketClient\TestSocketClient\bin\Debug\TestSocketClient.pdb
+C:\Code\TestSocketClient\TestSocketClient\obj\Debug\TestSocketClient.Form1.resources
+C:\Code\TestSocketClient\TestSocketClient\obj\Debug\TestSocketClient.exe
+C:\Code\TestSocketClient\TestSocketClient\obj\Debug\TestSocketClient.pdb
+C:\Code\TestSocketClient\TestSocketClient\obj\Debug\TestSocketClient.csprojResolveAssemblyReference.cache
+C:\Code\TestSocketClient\TestSocketClient\bin\Debug\PGClassLibrary.dll
+C:\Code\TestSocketClient\TestSocketClient\bin\Debug\SevenZipSharp.dll
+C:\Code\TestSocketClient\TestSocketClient\bin\Debug\PGClassLibrary.pdb

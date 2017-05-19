@@ -1,0 +1,392 @@
+2016-08-02 14:36:11: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 144
+2016-08-02 14:36:28: Error StartClient: A request to send or receive data was disallowed because the socket is not connected and (when sending on a datagram socket using a sendto call) no address was supplied,    at System.Net.Sockets.Socket.BeginSend(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at TestSocketClient.AsynchronousClient.Send(Socket client, String data) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 181
+   at TestSocketClient.AsynchronousClient.StartClient(String message) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 68
+2016-08-02 14:36:29: Error ConnectCallback: No connection could be made because the target machine actively refused it 169.254.163.193:18764,    at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ConnectCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 100
+2016-08-02 14:36:29: Error StartClient: A request to send or receive data was disallowed because the socket is not connected and (when sending on a datagram socket using a sendto call) no address was supplied,    at System.Net.Sockets.Socket.BeginSend(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at TestSocketClient.AsynchronousClient.Send(Socket client, String data) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 181
+   at TestSocketClient.AsynchronousClient.StartClient(String message) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 68
+2016-08-02 14:36:30: Error ConnectCallback: No connection could be made because the target machine actively refused it 169.254.163.193:18764,    at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ConnectCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 100
+2016-08-02 14:36:38: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 144
+2016-08-02 14:36:38: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 154
+2016-08-02 14:36:39: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 154
+2016-08-02 14:36:40: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 154
+2016-08-02 14:36:41: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 154
+2016-08-02 14:36:41: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 154
+2016-08-02 14:36:42: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 154
+2016-08-02 14:36:42: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 154
+2016-08-02 14:36:42: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 154
+2016-08-02 14:36:43: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 154
+2016-08-02 14:36:52: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 154
+2016-08-02 14:36:52: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 154
+2016-08-02 14:36:52: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 154
+2016-08-02 14:36:52: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 154
+2016-08-02 14:36:53: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 154
+2016-08-02 14:36:53: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 154
+2016-08-02 14:36:53: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 144
+2016-08-02 14:36:54: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 154
+2016-08-02 14:36:54: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 154
+2016-08-02 14:36:54: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 154
+2016-08-02 14:36:55: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 154
+2016-08-02 14:36:55: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 154
+2016-08-02 14:37:09: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 154
+2016-08-02 14:37:46: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 144
+2016-08-02 14:37:53: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 154
+2016-08-02 14:38:54: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 144
+2016-08-02 14:39:01: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 144
+2016-08-02 14:39:21: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 144
+2016-08-02 14:40:10: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 144
+2016-08-02 14:40:33: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 144
+2016-08-02 14:40:34: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 144
+2016-08-02 14:40:35: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 144
+2016-08-02 14:40:35: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 144
+2016-08-02 14:40:36: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 154
+2016-08-02 14:40:36: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 144
+2016-08-02 14:40:37: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 144
+2016-08-02 14:40:37: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 154
+2016-08-02 14:40:38: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 154
+2016-08-02 14:40:38: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 144
+2016-08-02 14:40:38: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 154
+2016-08-02 14:40:38: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 144
+2016-08-02 14:40:38: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 154
+2016-08-02 14:40:39: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 154
+2016-08-02 14:40:39: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 154
+2016-08-02 14:40:39: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 154
+2016-08-02 14:40:39: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 154
+2016-08-02 14:40:39: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 154
+2016-08-02 14:40:39: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 154
+2016-08-02 14:40:39: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 154
+2016-08-02 14:40:40: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 154
+2016-08-02 14:42:37: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 144
+2016-08-02 14:43:26: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 144
+2016-08-02 14:43:28: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 154
+2016-08-02 14:43:28: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 154
+2016-08-02 14:43:29: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 154
+2016-08-02 14:43:29: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 154
+2016-08-02 14:43:29: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 154
+2016-08-02 14:43:29: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 154
+2016-08-02 14:43:29: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 154
+2016-08-02 14:43:29: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 154
+2016-08-02 14:43:30: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 154
+2016-08-02 14:43:30: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 154
+2016-08-02 14:44:11: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 144
+2016-08-02 14:46:45: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 144
+2016-08-02 14:46:53: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 144
+2016-08-02 14:53:31: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 143
+2016-08-02 14:53:35: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 143
+2016-08-02 14:53:36: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 143
+2016-08-02 14:59:34: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 143
+2016-08-02 14:59:38: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 153
+2016-08-02 14:59:41: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 143
+2016-08-02 14:59:42: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 143
+2016-08-02 14:59:45: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 143
+2016-08-02 14:59:47: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 143
+2016-08-02 15:00:53: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 143
+2016-08-02 15:00:58: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 143
+2016-08-02 15:01:48: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 143
+2016-08-02 15:06:08: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 145
+2016-08-02 15:06:08: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 145
+2016-08-02 15:06:37: Error ConnectCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ConnectCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 102
+2016-08-02 15:06:37: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 145
+2016-08-02 15:09:19: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 145
+2016-08-02 17:00:22: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 148
+2016-08-02 17:00:33: Error ReceiveCallback: A request to send or receive data was disallowed because the socket had already been shut down in that direction with a previous shutdown call,    at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 158
+2016-08-02 17:03:00: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 148
+2016-08-02 17:03:01: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 148
+2016-08-02 17:03:00: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 148
+2016-08-02 17:03:36: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 148
+2016-08-02 17:03:40: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 148
+2016-08-02 17:03:42: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 148
+2016-08-02 17:12:11: Error ConnectCallback: No connection could be made because the target machine actively refused it 169.254.163.193:18764,    at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ConnectCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 105
+2016-08-02 17:12:12: Error StartClient: A request to send or receive data was disallowed because the socket is not connected and (when sending on a datagram socket using a sendto call) no address was supplied,    at System.Net.Sockets.Socket.BeginSend(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at TestSocketClient.AsynchronousClient.Send(Socket client, String data) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 185
+   at TestSocketClient.AsynchronousClient.StartClient(String message) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 68
+2016-08-02 17:12:21: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 148
+2016-08-02 17:12:23: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 148
+2016-08-02 17:12:49: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 148
+2016-08-02 17:12:51: Error ReceiveCallback: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.,    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at TestSocketClient.AsynchronousClient.ReceiveCallback(IAsyncResult ar) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 148

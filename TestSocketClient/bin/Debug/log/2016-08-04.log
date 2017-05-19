@@ -1,0 +1,10 @@
+2016-08-04 10:29:47: Error StartClient: The system detected an invalid pointer address in attempting to use a pointer argument in a call,    at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.InternalBind(EndPoint localEP)
+   at System.Net.Sockets.Socket.BeginConnectEx(EndPoint remoteEP, Boolean flowContext, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginConnect(EndPoint remoteEP, AsyncCallback callback, Object state)
+   at TestSocketClient.AsynchronousClient.StartClient(String message) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 65
+2016-08-04 10:29:54: Error StartClient: The system detected an invalid pointer address in attempting to use a pointer argument in a call,    at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.InternalBind(EndPoint localEP)
+   at System.Net.Sockets.Socket.BeginConnectEx(EndPoint remoteEP, Boolean flowContext, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginConnect(EndPoint remoteEP, AsyncCallback callback, Object state)
+   at TestSocketClient.AsynchronousClient.StartClient(String message) in c:\Code\TestSocketClient\TestSocketClient\SocketClient.cs:line 65
